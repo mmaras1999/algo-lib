@@ -1,0 +1,30 @@
+Numbers:
+- Miller Rabin
+- FFT
+- NTT
+- Convolutions
+- Linear Sieve
+- CRT
+- Discrete Log
+- Gauss
+
+Text:
+- KMP
+- KMR
+- Suffix Array
+- Aho Corasick
+
+Graph:
+- LCA
+- HLD
+
+Geometry:
+- Convex Hull
+
+Flow:
+- Dinic
+- Hopcroft-Karp
+
+Other:
+- 2-SAT
+- Splay
