@@ -1,6 +1,6 @@
 namespace LinearSieve
 {
-    vector <bool> sieve;
+    vector <int> sieve;
     vector <int> primes;
 
     void init(int N)
