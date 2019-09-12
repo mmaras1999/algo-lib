@@ -3,7 +3,6 @@ Numbers:
 - FFT
 - NTT
 - Convolutions
-- Linear Sieve
 - CRT
 - Discrete Log
 - Gauss
@@ -20,15 +19,18 @@ Graph:
 - ???
 
 Geometry:
+- Vector class
 - Convex Hull
+- Useful Formulas, etc.
 - ???
 
 Flow:
 - Dinic
-- Hopcroft-Karp
 - ???
 
 Other:
+- LIS and Young's Tableau
+- Matroid Intersection
 - 2-SAT
 - Splay
 - Treap

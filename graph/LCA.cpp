@@ -5,7 +5,7 @@ namespace LCA
     vector <pair <int, int> > RMQ[26];
     vector <int> log;
 
-    void DFS(int v, int prev = -1)
+    void DFS(int v, int prev, vector <vector <int> >& tree)
     {
         preorder[v] = SIZE(eulerTour);
         eulerTour.PB(v);
@@ -13,7 +13,7 @@ namespace LCA
             if(u != prev)
             {
                 depth[u] = depth[v] + 1;
-                DFS(u, v);
+                DFS(u, v, tree);
                 eulerTour.PB(v);
             }
     }
@@ -23,7 +23,7 @@ namespace LCA
         int n = SIZE(tree);
         preorder.resize(n, -1);
         depth.resize(n);
-        DFS(0);
+        DFS(0, -1, tree);
         int m = SIZE(eulerTour);
         log.resize(m, 0);
         FOR(i, 2, m)
