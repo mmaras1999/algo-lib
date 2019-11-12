@@ -13,9 +13,13 @@ Text:
 - KMR
 - Suffix Array
 - Aho Corasick
+- Suffix Tree
 - ???
 
 Graph:
+- SCC
+- Bridges/Articulation Points
+- 2-SAT
 - ???
 
 Geometry:
@@ -28,10 +32,15 @@ Flow:
 - Dinic
 - ???
 
+DP-Optimization:
+- Dynamic Convex Hull Trick
+- Li Chao Tree
+- Knuth's Optimization
+- Divide and Conquer DP Optimization
+- ???
+
 Other:
 - LIS and Young's Tableau
 - Matroid Intersection
-- 2-SAT
 - Splay
 - Treap
-- ???
