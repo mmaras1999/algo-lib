@@ -7,7 +7,7 @@ struct CHT
         LD a1 = l1.first, b1 = l1.second;
         LD a2 = l2.first, b2 = l2.second;
         LD a3 = l3.first, b3 = l3.second;
-
+        
         return (b3 - b1) * (a2 - a3) >= (a1 - a3) * (b3 - b2);
     }
 
@@ -48,7 +48,7 @@ struct CHT
 
         if(minn + 1 < SIZE(lines))
         {
-            //change to max if needed
+            //change to max if needed, also change comparators in query and check!
             res = min(res, lines[minn + 1].first * x + lines[minn + 1].second);
         }
 

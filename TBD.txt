@@ -43,4 +43,3 @@ Other:
 - LIS and Young's Tableau
 - Matroid Intersection
 - Splay
-- Treap
